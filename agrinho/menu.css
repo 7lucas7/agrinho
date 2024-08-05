@@ -1,0 +1,137 @@
+body{
+    background-color: #c0d890;
+  }
+   
+
+header{
+    background-color: #51813e;
+  }
+
+/* Reset básico para remover margens e paddings padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo para a barra de navegação */
+.navbar {
+  background-color: #000000; /* Cor de fundo da navbar */
+  padding: 20px 0; /* Espaçamento interno na parte superior e inferior */
+}
+
+/* Estilo para a lista de navegação */
+.nav-list {
+  list-style-type: none; /* Remover os marcadores de lista padrão */
+  text-align: center; /* Centralizar os itens da lista */
+  font-family: "Poppins", sans-serif;
+}
+
+/* Estilo para os itens da lista de navegação */
+.nav-list li {
+  display: inline; /* Exibir os itens em linha (na horizontal) */
+  margin: 0 10px; /* Margem entre os itens */
+}
+
+/* Estilo para os links dentro dos itens da lista */
+.nav-list li a {
+  text-decoration: none; /* Remover decoração de sublinhado dos links */
+  color: white; /* Cor do texto dos links */
+  padding: 8px 12px; /* Espaçamento interno dos links */ 
+  border-radius: 5px; /* Borda arredondada nos links */
+}
+
+/* Estilo para os links quando o cursor passa por cima */
+.nav-list li a:hover {
+  background-color: #51813e; /* Cor de fundo ao passar o mouse */
+}
+
+.titulo{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.texto{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+img{
+  height: 450px;
+  width: 700px;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  }
+
+  .container2 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .center {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+  }
+
+  .center2 {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+  }
+  
+  .btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #ffffff;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: #c0d890;
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }
